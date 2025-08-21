@@ -1,0 +1,7 @@
+py --versión
+python django -m django --versión
+cd C:\Users\COP403L\Documents\carpetacualquiera
+django-admin startproject holaMundoDjango
+dir (tiene que estar el manage.py)
+python manage.py runserver
+python manage.py startapp firstApp
