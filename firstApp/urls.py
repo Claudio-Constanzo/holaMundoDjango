@@ -5,6 +5,6 @@ from firstApp.views import displayDateTime
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path("hola/",display),
+    path("hola1/",display),
     path("ahora/", displayDateTime),
 ]
