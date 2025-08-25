@@ -9,3 +9,4 @@ def displayDateTime(request):
     dt = datetime.datetime.now()
     s = "<b>Fecha y hora actual: </b>" + str(dt)
     return HttpResponse(s)
+
